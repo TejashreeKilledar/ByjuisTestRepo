@@ -56,6 +56,8 @@ public class TestNgAdditionalCalculator {
 	public void launchBrowser()
 	{
 		System.out.println("Before method");
+		
+		System.out.println("Before method");
 		driver.get("https://byjus.com/2-digit-number-addition-calculator/");
 		
 	}
@@ -63,7 +65,7 @@ public class TestNgAdditionalCalculator {
 	@Test
 	public void checkOnAdditionalCalci()
 	{
-		System.out.println("Test");
+		//System.out.println("Test");
 		AdditionCalculator additionCalculator=new AdditionCalculator(driver);
 		additionCalculator.sendFirstInput("3");
 		additionCalculator.sendSecondInput("5");
@@ -83,6 +85,7 @@ public class TestNgAdditionalCalculator {
 	@AfterMethod
 	public void closeCalci()
 	{
+		
 		System.out.println("After Method");
 		driver.close();
 	}
