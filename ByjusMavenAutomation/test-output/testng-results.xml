@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="6" failed="2" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T09:50:28 IST" name="Suite" finished-at="2023-02-08T09:53:00 IST" duration-ms="151717">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T09:50:28 IST" name="ChromeTest" finished-at="2023-02-08T09:50:34 IST" duration-ms="6016">
+      <class name="testPkg.TestNgOnlineCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgOnlineCalculator@654f0d9c]" started-at="2023-02-08T09:50:34 IST" name="OpenBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034497" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgOnlineCalculator@654f0d9c]" started-at="2023-02-08T09:50:34 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034654" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgOnlineCalculator@654f0d9c]" started-at="2023-02-08T09:50:34 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:50:34 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at testPkg.TestNgAdditionalCalculator.OpenBrowser(TestNgAdditionalCalculator.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgOnlineCalculator@654f0d9c]" started-at="2023-02-08T09:50:34 IST" name="closeCalci" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034667" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgOnlineCalculator@654f0d9c]" started-at="2023-02-08T09:50:34 IST" name="closetest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034735" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgOnlineCalculator -->
+      <class name="testPkg.TestNgMathsCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgMathsCalculator@6a400542]" started-at="2023-02-08T09:50:34 IST" name="OpenBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034487" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgMathsCalculator@6a400542]" started-at="2023-02-08T09:50:34 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034684" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgMathsCalculator@6a400542]" started-at="2023-02-08T09:50:34 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:50:34 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at testPkg.TestNgAdditionalCalculator.OpenBrowser(TestNgAdditionalCalculator.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgMathsCalculator@6a400542]" started-at="2023-02-08T09:50:34 IST" name="closeCalci" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034700" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgMathsCalculator@6a400542]" started-at="2023-02-08T09:50:34 IST" name="closetest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034733" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgMathsCalculator -->
+      <class name="testPkg.TestNgAdditionalCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgAdditionalCalculator@6580cfdd]" started-at="2023-02-08T09:50:28 IST" name="OpenBrowser" finished-at="2023-02-08T09:50:34 IST" duration-ms="5699" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at testPkg.TestNgAdditionalCalculator.OpenBrowser(TestNgAdditionalCalculator.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6580cfdd]" started-at="2023-02-08T09:50:34 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034705" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6580cfdd]" started-at="2023-02-08T09:50:34 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:50:34 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at testPkg.TestNgAdditionalCalculator.OpenBrowser(TestNgAdditionalCalculator.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6580cfdd]" started-at="2023-02-08T09:50:34 IST" name="closeCalci" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034722" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6580cfdd]" started-at="2023-02-08T09:50:34 IST" name="closetest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034729" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgAdditionalCalculator -->
+      <class name="testPkg.TestNgStudyMaterial">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgStudyMaterial@10e41621]" started-at="2023-02-08T09:50:34 IST" name="OpenBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034517" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgStudyMaterial@10e41621]" started-at="2023-02-08T09:50:34 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034606" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgStudyMaterial@10e41621]" started-at="2023-02-08T09:50:34 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:50:34 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.77 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+(No symbol) [0x00C6F243]
+(No symbol) [0x00BF7FD1]
+(No symbol) [0x00AED04D]
+(No symbol) [0x00B0F6B4]
+(No symbol) [0x00B0A97C]
+(No symbol) [0x00B082E9]
+(No symbol) [0x00B3F056]
+(No symbol) [0x00B3EB2A]
+(No symbol) [0x00B38386]
+(No symbol) [0x00B1163C]
+(No symbol) [0x00B1269D]
+GetHandleVerifier [0x00F09A22+2655074]
+GetHandleVerifier [0x00EFCA24+2601828]
+GetHandleVerifier [0x00D18C0A+619850]
+GetHandleVerifier [0x00D17830+614768]
+(No symbol) [0x00C005FC]
+(No symbol) [0x00C05968]
+(No symbol) [0x00C05A55]
+(No symbol) [0x00C1051B]
+BaseThreadInitThunk [0x754800F9+25]
+RtlGetAppContainerNamedObjectPath [0x77367BBE+286]
+RtlGetAppContainerNamedObjectPath [0x77367B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at testPkg.TestNgAdditionalCalculator.OpenBrowser(TestNgAdditionalCalculator.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgStudyMaterial@10e41621]" started-at="2023-02-08T09:50:34 IST" name="closeCalci" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034635" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgStudyMaterial@10e41621]" started-at="2023-02-08T09:50:34 IST" name="closetest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675830034738" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgStudyMaterial -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-02-08T09:50:34 IST" name="FirefoxTest" finished-at="2023-02-08T09:51:46 IST" duration-ms="71413">
+      <class name="testPkg.TestNgOnlineCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgOnlineCalculator@72057ecf]" started-at="2023-02-08T09:50:47 IST" name="OpenBrowser" finished-at="2023-02-08T09:50:54 IST" duration-ms="7032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgOnlineCalculator@72057ecf]" started-at="2023-02-08T09:51:23 IST" name="launchBrowser" finished-at="2023-02-08T09:51:27 IST" duration-ms="3406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgOnlineCalculator@72057ecf]" started-at="2023-02-08T09:51:27 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:51:30 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgOnlineCalculator@72057ecf]" started-at="2023-02-08T09:51:30 IST" name="closeCalci" finished-at="2023-02-08T09:51:32 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgOnlineCalculator@72057ecf]" started-at="2023-02-08T09:51:46 IST" name="closetest" finished-at="2023-02-08T09:51:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgOnlineCalculator -->
+      <class name="testPkg.TestNgMathsCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgMathsCalculator@1afd44cb]" started-at="2023-02-08T09:50:41 IST" name="OpenBrowser" finished-at="2023-02-08T09:50:47 IST" duration-ms="6334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgMathsCalculator@1afd44cb]" started-at="2023-02-08T09:51:32 IST" name="launchBrowser" finished-at="2023-02-08T09:51:36 IST" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgMathsCalculator@1afd44cb]" started-at="2023-02-08T09:51:36 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:51:38 IST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgMathsCalculator@1afd44cb]" started-at="2023-02-08T09:51:38 IST" name="closeCalci" finished-at="2023-02-08T09:51:40 IST" duration-ms="1975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgMathsCalculator@1afd44cb]" started-at="2023-02-08T09:51:46 IST" name="closetest" finished-at="2023-02-08T09:51:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgMathsCalculator -->
+      <class name="testPkg.TestNgAdditionalCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgAdditionalCalculator@6973b51b]" started-at="2023-02-08T09:50:34 IST" name="OpenBrowser" finished-at="2023-02-08T09:50:41 IST" duration-ms="6225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6973b51b]" started-at="2023-02-08T09:51:40 IST" name="launchBrowser" finished-at="2023-02-08T09:51:43 IST" duration-ms="3689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6973b51b]" started-at="2023-02-08T09:51:43 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:51:44 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6973b51b]" started-at="2023-02-08T09:51:44 IST" name="closeCalci" finished-at="2023-02-08T09:51:46 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgAdditionalCalculator@6973b51b]" started-at="2023-02-08T09:51:46 IST" name="closetest" finished-at="2023-02-08T09:51:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgAdditionalCalculator -->
+      <class name="testPkg.TestNgStudyMaterial">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgStudyMaterial@192d43ce]" started-at="2023-02-08T09:50:54 IST" name="OpenBrowser" finished-at="2023-02-08T09:51:01 IST" duration-ms="7428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgStudyMaterial@192d43ce]" started-at="2023-02-08T09:51:02 IST" name="launchBrowser" finished-at="2023-02-08T09:51:08 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgStudyMaterial@192d43ce]" started-at="2023-02-08T09:51:08 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:51:21 IST" duration-ms="12689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgStudyMaterial@192d43ce]" started-at="2023-02-08T09:51:21 IST" name="closeCalci" finished-at="2023-02-08T09:51:23 IST" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgStudyMaterial@192d43ce]" started-at="2023-02-08T09:51:46 IST" name="closetest" finished-at="2023-02-08T09:51:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgStudyMaterial -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2023-02-08T09:51:46 IST" name="OperaTest" finished-at="2023-02-08T09:53:00 IST" duration-ms="74075">
+      <class name="testPkg.TestNgOnlineCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgOnlineCalculator@498d318c]" started-at="2023-02-08T09:52:02 IST" name="OpenBrowser" finished-at="2023-02-08T09:52:07 IST" duration-ms="4975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgOnlineCalculator@498d318c]" started-at="2023-02-08T09:52:30 IST" name="launchBrowser" finished-at="2023-02-08T09:52:33 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgOnlineCalculator@498d318c]" started-at="2023-02-08T09:52:33 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:52:39 IST" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgOnlineCalculator@498d318c]" started-at="2023-02-08T09:52:39 IST" name="closeCalci" finished-at="2023-02-08T09:52:40 IST" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgOnlineCalculator@498d318c]" started-at="2023-02-08T09:53:00 IST" name="closetest" finished-at="2023-02-08T09:53:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgOnlineCalculator -->
+      <class name="testPkg.TestNgMathsCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgMathsCalculator@6e171cd7]" started-at="2023-02-08T09:51:56 IST" name="OpenBrowser" finished-at="2023-02-08T09:52:02 IST" duration-ms="5215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgMathsCalculator@6e171cd7]" started-at="2023-02-08T09:52:40 IST" name="launchBrowser" finished-at="2023-02-08T09:52:44 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgMathsCalculator@6e171cd7]" started-at="2023-02-08T09:52:44 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:52:46 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgMathsCalculator@6e171cd7]" started-at="2023-02-08T09:52:46 IST" name="closeCalci" finished-at="2023-02-08T09:52:48 IST" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgMathsCalculator@6e171cd7]" started-at="2023-02-08T09:53:00 IST" name="closetest" finished-at="2023-02-08T09:53:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgMathsCalculator -->
+      <class name="testPkg.TestNgAdditionalCalculator">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgAdditionalCalculator@402bba4f]" started-at="2023-02-08T09:51:46 IST" name="OpenBrowser" finished-at="2023-02-08T09:51:56 IST" duration-ms="10460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgAdditionalCalculator@402bba4f]" started-at="2023-02-08T09:52:48 IST" name="launchBrowser" finished-at="2023-02-08T09:52:52 IST" duration-ms="3868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgAdditionalCalculator@402bba4f]" started-at="2023-02-08T09:52:52 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:52:58 IST" duration-ms="5751" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: operadriver=109.0.5414.120 (168eebf2055fd26ca8c71787b7b3f9fe7c90d13d-refs/branch-heads/5414@{#1459}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52099}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 109.0.5414.120 (168eebf2055..., userDataDir: C:\Users\Admin\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 109.0.5414.120, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed0a0429b91a4dbcbe2bb552d42fe33e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: operadriver=109.0.5414.120 (168eebf2055fd26ca8c71787b7b3f9fe7c90d13d-refs/branch-heads/5414@{#1459}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52099}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 109.0.5414.120 (168eebf2055..., userDataDir: C:\Users\Admin\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 109.0.5414.120, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed0a0429b91a4dbcbe2bb552d42fe33e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at pomPkg.AdditionCalculator.clickOnSolveButton(AdditionCalculator.java:49)
+at testPkg.TestNgAdditionalCalculator.checkOnAdditionalCalci(TestNgAdditionalCalculator.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgAdditionalCalculator@402bba4f]" started-at="2023-02-08T09:52:58 IST" name="closeCalci" finished-at="2023-02-08T09:53:00 IST" duration-ms="2405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgAdditionalCalculator@402bba4f]" started-at="2023-02-08T09:53:00 IST" name="closetest" finished-at="2023-02-08T09:53:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgAdditionalCalculator -->
+      <class name="testPkg.TestNgStudyMaterial">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:testPkg.TestNgStudyMaterial@40ef3420]" started-at="2023-02-08T09:52:07 IST" name="OpenBrowser" finished-at="2023-02-08T09:52:13 IST" duration-ms="6203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testPkg.TestNgStudyMaterial@40ef3420]" started-at="2023-02-08T09:52:13 IST" name="launchBrowser" finished-at="2023-02-08T09:52:19 IST" duration-ms="6229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkOnAdditionalCalci()[pri:0, instance:testPkg.TestNgStudyMaterial@40ef3420]" started-at="2023-02-08T09:52:19 IST" name="checkOnAdditionalCalci" finished-at="2023-02-08T09:52:29 IST" duration-ms="10507" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: operadriver=109.0.5414.120 (168eebf2055fd26ca8c71787b7b3f9fe7c90d13d-refs/branch-heads/5414@{#1459}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52229}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 109.0.5414.120 (168eebf2055..., userDataDir: C:\Users\Admin\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 109.0.5414.120, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a929fdae1cad8d45d51363b3f6cfc49d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=109.0.5414.120)
+  (Driver info: operadriver=109.0.5414.120 (168eebf2055fd26ca8c71787b7b3f9fe7c90d13d-refs/branch-heads/5414@{#1459}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GU03B2P', ip: '192.168.96.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52229}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 109.0.5414.120 (168eebf2055..., userDataDir: C:\Users\Admin\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 109.0.5414.120, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a929fdae1cad8d45d51363b3f6cfc49d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at pomPkg.StudyMaterialPage.clickOnCalculatorButton(StudyMaterialPage.java:30)
+at testPkg.TestNgStudyMaterial.checkOnAdditionalCalci(TestNgStudyMaterial.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnAdditionalCalci -->
+        <test-method is-config="true" signature="closeCalci()[pri:0, instance:testPkg.TestNgStudyMaterial@40ef3420]" started-at="2023-02-08T09:52:29 IST" name="closeCalci" finished-at="2023-02-08T09:52:30 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCalci -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testPkg.TestNgStudyMaterial@40ef3420]" started-at="2023-02-08T09:53:00 IST" name="closetest" finished-at="2023-02-08T09:53:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testPkg.TestNgStudyMaterial -->
+    </test> <!-- OperaTest -->
+  </suite> <!-- Suite -->
+</testng-results>

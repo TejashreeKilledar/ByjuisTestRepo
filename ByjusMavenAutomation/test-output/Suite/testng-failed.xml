@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testPkg.TestNgStudyMaterial">
+        <methods>
+          <include name="closeCalci"/>
+          <include name="closetest"/>
+          <include name="checkOnAdditionalCalci"/>
+          <include name="OpenBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testPkg.TestNgStudyMaterial -->
+      <class name="testPkg.TestNgMathsCalculator">
+        <methods>
+          <include name="closetest"/>
+          <include name="closeCalci"/>
+          <include name="launchBrowser"/>
+          <include name="checkOnAdditionalCalci"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- testPkg.TestNgMathsCalculator -->
+      <class name="testPkg.TestNgAdditionalCalculator">
+        <methods>
+          <include name="checkOnAdditionalCalci"/>
+          <include name="launchBrowser"/>
+          <include name="closetest"/>
+          <include name="OpenBrowser"/>
+          <include name="closeCalci"/>
+        </methods>
+      </class> <!-- testPkg.TestNgAdditionalCalculator -->
+      <class name="testPkg.TestNgOnlineCalculator">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="closetest"/>
+          <include name="checkOnAdditionalCalci"/>
+          <include name="launchBrowser"/>
+          <include name="closeCalci"/>
+        </methods>
+      </class> <!-- testPkg.TestNgOnlineCalculator -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="1" parallel="classes" name="OperaTest(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="testPkg.TestNgStudyMaterial">
+        <methods>
+          <include name="closeCalci"/>
+          <include name="closetest"/>
+          <include name="checkOnAdditionalCalci"/>
+          <include name="OpenBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testPkg.TestNgStudyMaterial -->
+      <class name="testPkg.TestNgAdditionalCalculator">
+        <methods>
+          <include name="checkOnAdditionalCalci"/>
+          <include name="launchBrowser"/>
+          <include name="closetest"/>
+          <include name="OpenBrowser"/>
+          <include name="closeCalci"/>
+        </methods>
+      </class> <!-- testPkg.TestNgAdditionalCalculator -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
